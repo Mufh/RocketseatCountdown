@@ -1,0 +1,168 @@
+
+
+html, body, #page {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+
+.topo{
+    position: absolute;
+    width: 1366px;
+    height: 133px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.meio{
+    position: absolute;
+    width: 607px;
+    height: 435px;
+    left: 699px;
+    top: 150px;
+}
+
+.rodapé{
+    position: absolute;
+    width: 1366px;
+    height: 229px;
+    left: 0px;
+    top: 542px;}
+
+p{
+    position: absolute;
+    width: 494px;
+    height: 172px;
+    left: 123px;
+    top: 187px;
+}
+
+#timer{
+    position: absolute;
+    width: 494px;
+    height: 79px;
+    left: 123px;
+    top: 200px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 108px;
+    color: #4D4C59;
+    font:bold
+}
+
+.dias{
+    position: absolute;
+    width: 30px;
+    height: 21px;
+    left: 7px;
+    top: 60px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #C8C8C8;
+}
+.horas{
+    position: absolute;
+    width: 41px;
+    height: 21px;
+    left: 115px;
+    top: 60px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #C8C8C8;
+}
+.minutos{position: absolute;
+    width: 54px;
+    height: 21px;
+    left: 239px;
+    top: 60px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #C8C8C8;
+}
+.segundos{position: absolute;
+    width: 70px;
+    height: 21px;
+    left: 375px;
+    top: 60px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #C8C8C8;
+}
+
+.inscrevase{position: absolute;
+    width: 380px;
+    height: 21px;
+    left: 35px;
+    top: 205px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: #9C9AB6;}
+            
+.readytolaunchin{
+   position: absolute;
+   width: 486px;
+   height: 54px;
+   left: 0px;
+   top: 0px;
+   
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 54px;
+   letter-spacing: 0.105em;
+   text-transform: uppercase;
+
+   color: #6C63FF;
+   
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.button{
+    background-color: #6C63FF;
+    color:white;
+    position: absolute;
+    width: 160px;
+    height: 46px;
+    left: 135px;
+    top: 250px;
+    padding: 0;
+    border: none;   
+}
+
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+      --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+}
+
+  

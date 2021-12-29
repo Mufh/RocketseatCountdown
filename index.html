@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <link rel="stylesheet" href="titulo.css">
+    <link rel="stylesheet" href="groups.js">
+
+    <script>
+        document.getElementById("timer").innerHTML = "My First JavaScript";
+        </script>
+  
+     <img class="topo" src="./images/top-image.svg" alt="topo">
+     <img class="meio" src="./images/rocket.svg" alt="meio">
+     <img class="rodapé" src="./images/bottom-image.svg" alt="rodapé">
+
+     <p> <text class="dias">Dias </text> </p>
+     <p> <text class="horas">Horas </text> </p>
+     <p> <text class="minutos">Minutos </text> </p>
+     <p> <text class="segundos">Segundos </text> </p>
+     <p> <text class="inscrevase">Inscreva-se para saber mais sobre o lançamento </text> </p>
+     <p> <text class="readytolaunchin" > READY TO LAUNCH IN... </text>  </p>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Poppins:wght@500&family=Roboto:wght@100&display=swap" 
+    rel="stylesheet">
+    <p> <button class="button"> INSCREVA-SE</button></p>
+     
+
+
+
+     <!-- Display the countdown timer in an element -->
+<p id="timer"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="timer"
+  document.getElementById("timer").innerHTML = days + " : " + hours + " : "
+  + minutes + " : " + seconds;
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("timer").innerHTML = "LAUNCHADO FELLAS";
+  }
+}, 1000);
+</script>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Roboto:wght@100&display=swap');
+    </style>
+
+
+
+</body>
+</html>
